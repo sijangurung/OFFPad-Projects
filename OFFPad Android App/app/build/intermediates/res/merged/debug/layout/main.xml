@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="35sp"
+        android:text="Transfer"
+        android:id="@+id/btnTransfer"
+        android:textColor="@color/white"
+        android:background="@color/offpadBlue"
+        android:layout_below="@+id/btnBluetoothToogle"
+        android:layout_alignLeft="@+id/btnAbout"
+        android:layout_alignRight="@+id/btnBluetoothToogle"
+        android:layout_marginTop="30sp" />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="35sp"
+        android:text="Turn Bluetooth On"
+        android:id="@+id/btnBluetoothToogle"
+        android:textColor="@color/white"
+        android:background="@color/offpadBlue"
+        android:layout_marginTop="40sp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/logo_offpad"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="35sp"
+        android:text="About"
+        android:id="@+id/btnAbout"
+        android:textColor="@color/white"
+        android:background="@color/offpadBlue"
+        android:layout_below="@+id/btnHistory"
+        android:layout_alignLeft="@+id/btnBluetoothToogle"
+        android:layout_marginTop="30sp"
+        android:layout_alignRight="@+id/btnBluetoothToogle" />
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="35sp"
+        android:text="History"
+        android:id="@+id/btnHistory"
+        android:textColor="@color/white"
+        android:background="@color/offpadBlue"
+        android:layout_below="@+id/btnTransfer"
+        android:layout_alignLeft="@+id/btnTransfer"
+        android:layout_marginTop="30sp"
+        android:layout_alignRight="@+id/btnTransfer" />
+
+    <ImageButton
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:id="@+id/imageButton3"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:onClick="Quit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout><!-- From: file:/Volumes/Work%20and%20Stuffs/Dropbox/Master%20Thesis%20Files/Project%20by%20Sijan/OFFPad%20Android%20App/app/src/main/res/layout/main.xml -->

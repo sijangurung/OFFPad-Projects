@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="About"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/offpadBlue"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/logo_offpad" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:gravity="center_horizontal"
+        android:text="\nDeveloped By Sijan Gurung. \n\n Sample Prototype for OffPAD Project. \n copyrights 2014/15. \n https:\\www.offpad.org." />
+
+    <ImageButton
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/ico_back"
+        android:onClick="Back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10sp" />
+
+</RelativeLayout>
+<!-- From: file:/Volumes/Work%20and%20Stuffs/Dropbox/Master%20Thesis%20Files/Project%20by%20Sijan/OFFPad%20Android%20App/app/src/main/res/layout/about.xml -->

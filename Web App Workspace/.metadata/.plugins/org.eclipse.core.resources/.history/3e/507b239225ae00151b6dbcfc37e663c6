@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Welcome to OFFPad Demo Prototype</title>
+
+<link rel='stylesheet' type='text/css' href='styles\style.css' />
+</head>
+<body>
+
+	<h1 align="center">Secure Banking Services </h1>
+
+	<center>
+		<img width='200px' src='images\\logo_offpad.jpg' />
+	</center>
+	<div class='login'>
+		<center><h2> <u>Transfer Amount</u> </h2></center>
+		<form action='ServerServlet' method='GET'>
+			Destination Account Number:  <input type='text' name='destination' value='${rDest}'>
+			Amount:	<input type='text' name='amount' value='${rAmt}' /> 
+			<input type='hidden' name='hash' value='${hashReceived}' /> 
+			<input type='submit' value='Transfer Amount' />
+		</form>
+		
+
+	</div>
+			<p style="max-width:100px">HashReceived: ${hashReceived} </p>
+</body>
+</html>

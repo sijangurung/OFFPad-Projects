@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer Amount"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignLeft="@+id/btnSend"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/offpadBlue" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination Account Number:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="32dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20sp" />
+
+    <EditText
+        android:id="@+id/txtDestNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text|number"
+        android:textSize="25sp"
+        android:hint="XXXX.XX.XXXX"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16sp">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtDestNo"
+        android:layout_alignLeft="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/txtAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:textSize="25sp"
+        android:layout_marginLeft="16sp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send To Server"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/offpadBlue" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_offpad"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="NOK"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/txtAmount"
+        android:layout_toRightOf="@+id/txtAmount"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/btnSend"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/out"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSend"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/ico_back"
+        android:onClick="Back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="error message"
+        android:id="@+id/txtMessage"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8sp"
+        android:textColor="#FF0000"
+        android:textSize="12sp" />
+
+</RelativeLayout>
+<!-- From: file:/Volumes/Work%20and%20Stuffs/Dropbox/Master%20Thesis%20Files/Project%20by%20Sijan/OFFPad%20Android%20App/app/src/main/res/layout/transfer.xml -->

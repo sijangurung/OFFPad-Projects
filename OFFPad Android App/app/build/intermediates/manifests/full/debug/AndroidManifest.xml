@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.offpad.testoffpad"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name="com.offpad.testoffpad.Application.app"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_offpad"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.offpad.testoffpad.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.offpad.testoffpad.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.offpad.testoffpad.Menu"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.offpad.testoffpad.About"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.offpad.testoffpad.Options"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.offpad.testoffpad.History"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.offpad.testoffpad.AsymmetricAlgorithmRSA"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.offpad.testoffpad.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="history.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.offpad.testoffpad.Models.Transactions" />
+    </application>
+
+</manifest>

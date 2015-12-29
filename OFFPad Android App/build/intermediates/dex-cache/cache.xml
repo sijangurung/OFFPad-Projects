@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/Work and Stuffs/Dropbox/Master Thesis Files/Project by Sijan/OFFPad Android App/app/libs/activeandroid-3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8cdfaba830e02c56967e946078b60fc476432f36">
+        <dex dex="/Volumes/Work and Stuffs/Dropbox/Master Thesis Files/Project by Sijan/OFFPad Android App/app/build/intermediates/pre-dexed/debug/activeandroid-3.0-10ca4faca6f9ab34c067da47cfaf6e3399282aa0.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work and Stuffs/Andriod/LATEST ADT/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Volumes/Work and Stuffs/Dropbox/Master Thesis Files/Project by Sijan/OFFPad Android App/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-15933a0594a1faf0f05ca8dd4bf7de8f0867e632.jar" />
+    </item>
+
+</items>

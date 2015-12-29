@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OffPad WebApp">
+        <property name="context-root" value="OffPad_WebApp"/>
+        <property name="java-output-path" value="/OffPad WebApp/build/classes"/>
+    </wb-module>
+</project-modules>

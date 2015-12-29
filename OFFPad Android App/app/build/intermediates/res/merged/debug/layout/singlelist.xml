@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Id:"
+        android:id="@+id/txtId"
+        android:layout_marginLeft="10sp" />
+
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Date:"
+        android:id="@+id/txtDate" />
+
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Dest_Account"
+        android:id="@+id/txtDestination" />
+
+    <TextView
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/txtAmount"
+        android:text="Amount" />
+
+    <TextView
+        android:layout_width="50sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Status"
+        android:id="@+id/txtStatus" />
+</LinearLayout><!-- From: file:/Volumes/Work%20and%20Stuffs/Dropbox/Master%20Thesis%20Files/Project%20by%20Sijan/OFFPad%20Android%20App/app/src/main/res/layout/singlelist.xml -->
